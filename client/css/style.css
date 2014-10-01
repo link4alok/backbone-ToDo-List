@@ -1,0 +1,52 @@
+.completed{
+	color: blue;
+	text-decoration: line-through;
+}
+ul{
+	display: block;
+	clear: both;
+
+}
+li {
+	width: 450px;
+	margin: 0px auto;
+	list-style: none;
+}
+.checkbox{
+	display: block;
+	width : 50px;
+	float: left;
+	clear: both;
+}
+span{
+	min-width: 50px;
+	min-height: 19px;
+	display: block;
+	float: left;
+}
+#inputBoxArea{
+	position: relative;
+	width: 380px;
+	margin: 0px auto;
+}
+.textInstruction{
+	margin-top: 20px;
+	font-size: 11px;
+	font-family: cursive;
+	font-weight: lighter;
+	margin-bottom: 20px;
+}
+.normalText{
+	
+}
+#placeHolderText{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+#btnDelete{
+	float: right;
+}
+#btnSubmit{
+	float: right;
+}
